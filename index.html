@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website 1</title>
+     <!-- ==============  Favicon =================== -->
+    <link rel="icon" href="https://opstelit.com/assets/img/uploaded/Site_setting/202305292025logo.png">
+    <!-- =========== STYLE CSS =========== -->
+    <link rel="stylesheet" href="style.css">
+    <!-- =========== FONT AWESOME CSS CDN =========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- =========== MAGNIFIC POPUP CSS CDN =========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+
+<body>
+
+    <!-- ================================
+        HEADER SECTION START
+    ================================= -->
+    <header>
+        <div class="container">
+            <!-- logo -->
+            <div class="logo">
+                <a href="#"><img src="Images/logo.png" alt="logo" /></a>
+            </div>
+            <!-- nav -->
+            <nav>
+                <ul class="" id="nav_bar">
+                    <li><a class="header_active active_calar" href="#home">Home</a></li>
+                    <li><a class="active_calar" href="#about">About me</a></li>
+                    <li><a class="active_calar" href="#business">Business</a></li>
+                    <li><a class="active_calar" href="#gallery">Gallery </a></li>
+                    <li> <a class="active_calar" href="#Contact">Contact Us </a></li>
+                </ul>
+                <i class="close fa-solid fa-xmark"></i>
+            </nav>
+            <img class="nav_icon" src="Images/icon/menu.png" alt="">
+
+        </div>
+
+    </header>
+    <!-- ================================
+        HEADER SECTION END
+    ================================= -->
+
+    <!-- ================================
+        HERO  SECTION START
+    ================================= -->
+    <section class="hero_section" id="home">
+        <div class="container column_reverse">
+            <div class="hero_tex">
+                <div class="hend_item">
+                    <h5>Hi, i am </h5>
+                    <img src="Images/shape/hand.png" alt="">
+                </div>
+                <h1>Adil Shah </h1>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic,
+                    print, and publishing industries for previewing layouts and visual
+                    mockups.</p>
+                <div class="button_flex">
+                    <a href="#about" class="con_btn Contact_btn">About me</a>
+                    <a href="#demo-modal" id="#demo-modal" class="video">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                        <span class="see_video" href="">See Video</span>
+                    </a>
+                    <!-- youtube video   -->
+                    <!-- <a href="#demo-modal1" id="#demo-modal1" class="video">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                        <span class="see_video" href="">youtube Video</span>
+                    </a> -->
+                </div>
+            </div>
+            <div class="hero_img">
+                <img class="hero_about_img" src="Images/hero_image.png.png" alt="">
+                <div class="bg_shape">
+                    <img class="shape_image_animation" src="Images/shape/bg_shape.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ================================
+        HERO  SECTION END
+    ================================= -->
+
+    <!-- ================================
+        ABOUT  SECTION START
+    ================================= -->
+    <section class="about_section" id="about">
+        <div class="container">
+            <div class="image_aria">
+                <div class="image_about">
+                    <img class="main" src="https://storage.needpix.com/rsynced_images/man-388104_1280.jpg" alt="">
+                    <div class="image_shape">
+                        <img class="image_shape_animation" src="Images/shape/about shape.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="description_aria">
+                <ul class="filters">
+                    <button class="active_des active_desss" onclick="openCity('details_item1')">My Story</button>
+                    <button class="active_desss" onclick="openCity('details_item2')">Business</button>
+                    <button class="active_desss" onclick="openCity('details_item3')">About me</button>
+                </ul>
+                <!-- ============= MY STORY ============= -->
+                <div class="details_item" id="details_item1">
+                    <div class="Story item">
+                        <h2>My Story</h2>
+                        <p>Hello! I’m Adil Shah . Senior Web Developer specializing in
+                            front end development. Experienced with all stages of the
+                            development cycle for dynamic web projects. Well-versed in
+                            numerous programming languages including JavaScript, SQL,
+                            and C. Stng background in project management and customer
+                            relations.</p>
+                        <h4>I Do Business and Partnership since I
+                            Was 18 Years Old</h4>
+                        <p class="hand_sign">Adil Shah </p>
+                    </div>
+                </div>
+                <!-- ============= MY BUSINESS ============= -->
+                <div class="details_item" id="details_item2" style="display:none">
+                    <div class="Story item">
+                        <h2>My Business</h2>
+                        <h4>I Do Business and Partnership since I
+                            Was 18 Years Old</h4>
+                        <div class=" business_logo">
+                            <a class="bus_logo" href="#">
+                                <p> <img src="Images/logo1.png" alt=""></p>
+                            </a>
+                            <a class="bus_logo" href="#">
+                                <p> <img src="Images/logo2.png" alt=""></p>
+                            </a>
+                            <a class="bus_logo" href="#">
+                                <p> <img src="Images/logo3.png" alt=""></p>
+                            </a>
+                            <a class="bus_logo" href="#">
+                                <p> <img src="Images/logo1.png" alt=""></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============= MY ABOUT ============= -->
+                <div class="details_item" id="details_item3" style="display:none">
+                    <div class="Story item">
+                        <h2>About Me</h2>
+                        <p>I am Adil Shah.I am a professional graphic designer and UI/UX Designer.I have been
+                            providing graphic design and UI/UX Design services for about 12 years. I am Mahfuzur Rahman
+                            Imad.I am a professional graphic designer and UI/UX Designer.I have been
+                            providing graphic design and UI/UX Design services for about 12 years</p>
+                        <p>I am Mahfuzur Rahman Imad.I am a professional graphic designer and UI/UX Designer.I have been
+                            providing graphic design and UI/UX Design services for about 12 years. I am Mahfuzur Rahman
+                            Imad.I am a professional graphic designer and UI/UX Designer.I have been
+                            providing graphic design and UI/UX Design services for about 12 years</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- ================================
+        ABOUT  SECTION END
+    ================================= -->
+
+    <!-- ================================
+        BUSINESS  SECTION START
+    ================================= -->
+    <section class="business_section" id="business">
+        <h1>My Business</h1>
+        <div class="container">
+            <div class="business_flex">
+                <!-- =========== BUSINESS 1 ===========  -->
+                <div class="business_item">
+                    <a class=" company_logo" href="#">
+                        <img src="Images/amborkhana.png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">The it aid</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- =========== BUSINESS 2 ===========  -->
+                <div class="business_item">
+                    <a class=" company_logo" href="#">
+                        <img src="Images/opstelit (2).png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">The it aid</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- =========== BUSINESS 3 ===========  -->
+                <div class="business_item">
+                    <a class=" company_logo" href="#">
+                        <img src="Images/opstelit (2).png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">SylCare</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- =========== BUSINESS 4 ===========  -->
+                <div class="business_item">
+                    <a class=" company_logo" href="#">
+                        <img src="Images/amborkhana.png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">Hexa’s</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- =========== BUSINESS 5 ===========  -->
+                <div class="business_item">
+                    <a class=" company_logo" href="#">
+                        <img src="Images/opstelit (2).png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">SylCare</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- =========== BUSINESS 6 ===========  -->
+                <div class="business_item">
+                    <a class=" company_logo" href="#">
+                        <img src="Images/amborkhana.png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">Hexa’s</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ================================
+        BUSINESS  SECTION END
+    ================================= -->
+
+    <!-- ================================
+        GALLERY  SECTION START
+    ================================= -->
+    <section class="gallery_section" id="gallery">
+        <div class="container gallery_mag">
+            <h1>My Gallery</h1>
+
+            <div class="gallery_top" id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All Photo</button>
+                <button class="btn" onclick="filterSelection('cars')"> Gallery 1</button>
+                <button class="btn" onclick="filterSelection('animals')"> Gallery 2</button>
+                <button class="btn" onclick="filterSelection('fruits')"> Gallery 3</button>
+            </div>
+
+            <div class="wrapper">
+                <a class="lightbox col-sm-3 filterDiv" href="Images/gallery/gallery1.png" class="filterDiv cars">
+                    <img src="Images/gallery/gallery1.png" alt="Bridge">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv colors fruits" href="Images/gallery/gallery2.png">
+                    <img src="Images/gallery/gallery2.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv cars" href="Images/gallery/gallery3.png">
+                    <img src="Images/gallery/gallery3.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv colors" href="Images/gallery/gallery4.png">
+                    <img src="Images/gallery/gallery4.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv cars" href="Images/gallery/gallery5.png">
+                    <img src="Images/gallery/gallery5.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv colors" href="Images/gallery/gallery6.png">
+                    <img src="Images/gallery/gallery6.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv animals" href="Images/gallery/gallery7.png">
+                    <img src="Images/gallery/gallery7.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv animals" href="Images/gallery/gallery8.png">
+                    <img src="Images/gallery/gallery8.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv animals" href="Images/gallery/gallery9.png">
+                    <img src="Images/gallery/gallery9.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ================================
+        GALLERY  SECTION END
+    ================================= -->
+
+    <!-- ================================
+        CONTACT  SECTION END
+    ================================= -->
+    <section class="contact_form_section" id="Contact">
+        <div class="container">
+            <div class="contact_me">
+                <h4>Contact Me</h4>
+                <p>Lorem ipsum is placeholder text commonly used
+                    in the graphic, print, and publishing industries for
+                    previewing layouts and visual mockups.</p>
+                <div class="social_icon_flex">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+088 017 0000-0000</span>
+                </div>
+                <div class="social_icon_flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>mahfuzurrahman@gmail.com</span>
+                </div>
+                <div class="social_icon_flex">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <span>Bangladesh, sylhet, Fenchugong</span>
+                </div>
+                <div class="social_icon">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+            </div>
+            <div class="form_item">
+                <form  id="contact-form">
+                    <div class="input_flex name">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required="">
+                    </div>
+                    <div class="input_flex emain">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required="">
+                    </div>
+                    <textarea placeholder="Write a message" required="" name="message" id="message" cols="30"
+                        rows="7"></textarea>
+                    <input class="input_btn" type="submit" value="Button">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ================================
+        CONTACT  SECTION END
+    ================================= -->
+
+    <!-- ================================
+        VIDEO MODAL
+    ================================= -->
+    <div id="demo-modal" class="modal">
+        <div class="modal__content">
+            <video  class="video_play" id="my-video" class="video-js" controls preload="auto"
+                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" data-setup='' loop>
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type='video/mp4'>
+            </video>
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div>
+    <!-- ================================
+        YOUTUBE VIDEO MODAL
+    ================================= -->
+    <div id="demo-modal1" class="modal">
+        <div class="modal__content">
+            <iframe width="700" height="400"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div>
+    <!-- ================================
+        SCROLL BUTTON
+    ================================= -->
+    <button id="btnScrollToTop">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+
+    <!-- ================================
+        FOOTER  SECTION START
+    ================================= -->
+    <footer id="contact">
+        <div class="copy_right">
+            <div class="cintainer">
+                <p>© 2023. All rights reserved by <a href="#"> Adil Shah </a> </p>
+            </div>
+        </div>
+    </footer>
+    <!-- ================================
+        FOOTER  SECTION END
+    ================================= -->
+
+    <!-- =========== JQUERY JS CDN =========== -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- =========== MAGNIFIC POPUP JS CDN =========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- ============  email js ================== -->
+
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+    <!-- =========== SCRIPT JS =========== -->
+    <script src="js/script.js"></script>
+
+    <!-- =========== MAGNIFIC POPUP JS =========== -->
+
+    <script>
+        $('.gallery_mag').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
+
+
+ 
+</body>
+
+</html>
